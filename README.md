@@ -1,24 +1,16 @@
-# soufianeportfolio
+# soufiane PortFolio
+First Test of my PortFolio
 
-## Project setup
-```
-npm install
-```
+![alt text](images/First%20Test.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Todo List
+- [X] Add Mastered Technologies Section
+- [ ] Add Project Section
+- [ ] Add Contact Section
+- [ ] Add Footer Section
+- [ ] Add Responsive Design
+- [ ] Add Animation
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ 

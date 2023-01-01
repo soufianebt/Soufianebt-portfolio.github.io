@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeadOfPage/>
+  <TechnologiesMastred/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeadOfPage from './components/Head.vue'
+import TechnologiesMastred from './components/Technologies.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeadOfPage,
+    TechnologiesMastred
   }
 }
 </script>
@@ -20,7 +22,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: whitesmoke;
+  background-color: #2c3e50;
   margin-top: 60px;
 }
+@import'~bootstrap/dist/css/bootstrap.css';
 </style>
