@@ -1,14 +1,13 @@
 <template>
-  <div class="HeadOfPage">
-    <img class="photo" alt="Soufiane Photo" src="../assets/SoufianeBOUTAHIRI.png">
+  <div class="page-head container pt-3">
+    <img class="portfolio-img img-fluid rounded-circle m-5" alt="Soufiane Photo" src="../assets/soufianeBoutahiri.jpg">
     <h1 class="title">Soufiane BOUTAHIRI</h1>
-    <h2 class="subtitle">Développeur Web</h2>
+    <h2 class="subtitle">Software engineer</h2>
   </div>
-  <div class="About">
-    <h1 class="title">À propos</h1>
-    <p class="text">Je suis ingenieur logiciel passionné par l'architecture et le devops. <br>
-      Je suis actuellement ingeniur logiciel a Orange Bussiness Service.
+  <div class="home" >
+    <p class="text-xl-center">I am a software engineer, passionate about Dot Net and JavaScript based web technologies with a great ability to learn and adapt, and I am very interested in micro-services architectures and agile methodologies.
     </p>
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
   </div>
 </template>
 
@@ -57,7 +56,11 @@ a {
   font-weight: normal;
   margin: 0;
 }
-.About {
+.home {
   margin: 50px 0 0;
+}
+.portfolio-img{
+  width: 20rem;
+  height: 20rem;
 }
 </style>

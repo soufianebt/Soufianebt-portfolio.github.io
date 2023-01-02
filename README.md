@@ -5,7 +5,8 @@ First Test of my PortFolio
 
 ## Todo List
 - [X] Add Mastered Technologies Section
-- [ ] Add Project Section
+- [X] Add Education Section
+- [X] Add Project Section
 - [ ] Add Contact Section
 - [ ] Add Footer Section
 - [ ] Add Responsive Design

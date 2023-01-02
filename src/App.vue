@@ -1,17 +1,29 @@
 <template>
+  <NavBar/>
   <HeadOfPage/>
+  <About/>
+  <EducationSection/>
   <TechnologiesMastred/>
+  <Projects/>
 </template>
 
 <script>
 import HeadOfPage from './components/Head.vue'
 import TechnologiesMastred from './components/Technologies.vue'
+import NavBar from "@/components/NavBar.vue";
+import Projects from "@/components/Projects.vue";
+import About from "@/components/About.vue";
+import EducationSection from "@/components/EducationSection.vue";
 
 export default {
   name: 'App',
   components: {
+    NavBar,
     HeadOfPage,
-    TechnologiesMastred
+    TechnologiesMastred,
+    Projects,
+    About,
+    EducationSection
   }
 }
 </script>
@@ -24,7 +36,6 @@ export default {
   text-align: center;
   color: whitesmoke;
   background-color: #2c3e50;
-  margin-top: 60px;
 }
 @import'~bootstrap/dist/css/bootstrap.css';
 </style>
