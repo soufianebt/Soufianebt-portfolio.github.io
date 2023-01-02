@@ -1,7 +1,5 @@
 # soufiane PortFolio
-First Test of my PortFolio
-
-![alt text](images/First%20Test.png)
+First Test to build PortFolio
 
 ## Todo List
 - [X] Add Mastered Technologies Section
