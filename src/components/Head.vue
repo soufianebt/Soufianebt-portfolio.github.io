@@ -7,7 +7,7 @@
   <div class="home" >
     <p class="text-xl-center">I am a software engineer, passionate about Dot Net and JavaScript based web technologies with a great ability to learn and adapt, and I am very interested in micro-services architectures and agile methodologies.
     </p>
-    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+    <a href="#about"><button class="btn btn-secondary">About Me </button></a>
   </div>
 </template>
 

@@ -5,6 +5,7 @@
   <EducationSection/>
   <TechnologiesMastred/>
   <Projects/>
+  <ContactSection/>
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import NavBar from "@/components/NavBar.vue";
 import Projects from "@/components/Projects.vue";
 import About from "@/components/About.vue";
 import EducationSection from "@/components/EducationSection.vue";
+import ContactSection from "@/components/ContactSection.vue";
 
 export default {
   name: 'App',
@@ -23,7 +25,8 @@ export default {
     TechnologiesMastred,
     Projects,
     About,
-    EducationSection
+    EducationSection,
+    ContactSection
   }
 }
 </script>

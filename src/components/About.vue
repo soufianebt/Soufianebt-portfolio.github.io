@@ -1,31 +1,29 @@
 <template>
   <section class="about" id="about">
 
-    <h1 class="heading"> <span>À propos de </span> moi</h1>
-
-    <div class="row">
-
+    <h1 class="heading"> <span>About</span> me</h1>
+    <div class="row m-5">
       <div class="info">
-        <h3> <span> Full Name : </span> Soufiane BOUTAHIRI </h3>
-        <h3> <span> Age : </span> 24 </h3>
-        <h3> <span> Qualification : </span> State Engineer (Bac +5) </h3>
-        <h3> <span> Post : </span>  Full-Stack Engineer Dot Net/ Vue.js </h3>
-        <h3> <span> Languages : </span> Arabic(Native), français (C1), Anglais (B2) </h3>
-        <a href="#"><button class="btn"> Download my CV <i class="fas fa-download"></i> </button></a>
+        <div> <span> Full Name : </span> Soufiane BOUTAHIRI </div>
+        <div> <span> Age : </span> 24 </div>
+        <div> <span> Qualification : </span> State Engineer (Bac +5) </div>
+        <div> <span> Post : </span>  Full-Stack Engineer Dot Net/ Vue.js </div>
+        <div> <span> Languages : </span> Arabic(Native), français (C1), Anglais (B2) </div>
+        <a href="#"><button class="btn btn-secondary mt-3"> Download my CV <i class="fas fa-download"></i> </button></a>
       </div>
 
-      <div class="counter">
+<!--      <div class="counter">-->
 
-        <div class="box">
-          <span>1+</span>
-          <h3>years of experience</h3>
-        </div>
+<!--        <div class="box">-->
+<!--          <span>1+</span>-->
+<!--          <h3>years of experience</h3>-->
+<!--        </div>-->
 
-        <div class="box">
-          <span>6+</span>
-          <h3>completed project</h3>
-        </div>
-      </div>
+<!--        <div class="box">-->
+<!--          <span>6+</span>-->
+<!--          <h3>completed project</h3>-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
   </section>
 </template>
