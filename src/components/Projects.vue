@@ -1,5 +1,5 @@
 <template>
-  <div class="projects m-5">
+  <div class="projects" id="projects">
     <h2 >Projects</h2>
     <div class="row row-cols-1 row-cols-md-6 g-4" >
       <ProjectCard
@@ -86,4 +86,9 @@ export default {
 </script>
 
 <style scoped>
+.projects{
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+}
 </style>

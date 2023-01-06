@@ -1,12 +1,13 @@
 <template>
-<div>
+<div id="education">
   <h3>Education</h3>
   <div  v-for="education in educations" :key="education.id">
-    <EducationCard  :educationMajor="education.name"
-                   :educationSchool="education.school"
-                   :educationDate="education.date"
-                   :educationField="education.field"
-                   :educationDescription="education.description"/>
+    <EducationCard
+                   :school="education.school"
+                   :location="education.location"
+                   :date="education.date"
+                   :field="education.field"
+                   :img="education.img"/>
   </div>
 </div>
 </template>
@@ -22,28 +23,28 @@ export default {
       educations: [
         {
           id: 1,
-          name: 'State Engineer',
           school: 'National School of Computer Science and Systems Analysis',
+          location: 'Rabat, Morocco',
           date: '2019-2022',
-          field: 'Web and Network',
-          description: 'State Engineer (Bac +5) in Computer Science'
+          field: 'Master Degree in Web&Mobile Computing Engineering',
+          img: require("@/assets/Images/Schools/ENSIAS.png"),
         },
         {
           id: 2,
-          name: 'DEUG',
           school: 'Faculty of Sciences Rabat',
+          location: 'Rabat, Morocco',
           date: '2017-2019',
-          field: 'Mathematics',
-          description: 'DEUG in Applied Mathematics'
+          field: 'DEUG in Applied Mathematics',
+          img: require("@/assets/Images/Schools/fsr.png")
         },
         {
           id:3,
-          name: 'Baccalaureate',
           school: 'Lyce Abou Bakr Errazi',
+          location: 'Skhirat, Morocco',
           date: '2017',
-          field: 'Mathematics',
-          description: 'Baccalaureate in Applied Mathematics-A'
-        }
+          field: 'Baccalaureate in Applied Mathematics-A',
+          img: require("@/assets/Images/Schools/Zakariya_Razi_001.jpg")
+          }
       ]
     }
   }

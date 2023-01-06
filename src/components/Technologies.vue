@@ -1,9 +1,9 @@
 <template>
-<div class="technologies m-5">
-<h2 >Technologies</h2>
-  <div class="row row-cols-1 row-cols-md-6 g-4" >
-   <technologCard v-for="technology in technologies" :key="technology.id"  :technologyName="technology.name" :technologyImage="technology.image"/>
-  </div>
+<div class="technologies" id="technologies">
+  <h2 >Technologies</h2>
+    <div class="row row-cols-1 row-cols-md-6 g-4" >
+     <technologCard v-for="technology in technologies" :key="technology.id"  :technologyName="technology.name" :technologyImage="technology.image"/>
+    </div>
 </div>
 </template>
 
@@ -82,5 +82,9 @@ export default {
 </script>
 
 <style scoped>
-
+.technologies{
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+}
 </style>

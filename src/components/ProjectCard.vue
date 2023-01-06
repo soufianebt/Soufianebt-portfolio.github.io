@@ -1,7 +1,7 @@
 <template>
   <div class="card p-2 col">
     <!--TODO :    make images carossel-->
-   <img class="card-img-top" :src="projectImages[0]" :alt="projectName">
+   <img class="img-fluid techno-img" :src="projectImages[0]" :alt="projectName">
     <div class="card-body">
       <h5 class="card-title">{{projectName}}</h5>
       <p class="card-text">{{projectDescription}}</p>
@@ -28,4 +28,12 @@ export default {
 .card {
   background-color: #2c3e50;
 }
+
+.techno-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 </style>

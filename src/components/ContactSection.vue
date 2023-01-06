@@ -5,9 +5,9 @@
       <div class="content">
         <h3 class="title">contact info</h3>
         <div class="info">
-          <h3> <i class="fas fa-envelope"></i> Soufianeboutahiri@gmail.com </h3>
-          <h3> <i class="fas fa-phone"></i> +212 601-541327 </h3>
-          <h3> <i class="fas fa-map-marker-alt"></i> Rabat, Morocco - 12050. </h3>
+          <h3> <i class=""></i> Soufianeboutahiri@gmail.com </h3>
+          <h3> <i class=""></i> +212 601-541327 </h3>
+          <h3> <i class=""></i> Rabat, Morocco - 12050. </h3>
         </div>
       </div>
       <form class="container align-content-center col-5" action="">
@@ -28,5 +28,9 @@ export default {
 </script>
 
 <style scoped>
-
+.contact{
+  background-color: #2c3e50;
+  color: white;
+  padding: 5rem 0;
+}
 </style>
