@@ -43,7 +43,7 @@ export default {
           location: 'Skhirat, Morocco',
           date: '2017',
           field: 'Baccalaureate in Applied Mathematics-A',
-          img: require("@/assets/Images/Schools/Zakariya_Razi_001.jpg")
+          img: require("@/assets/Images/Schools/Zakariya_Razi.jpg")
           }
       ]
     }

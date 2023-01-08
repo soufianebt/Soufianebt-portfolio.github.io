@@ -10,20 +10,48 @@
           <h3> <i class=""></i> Rabat, Morocco - 12050. </h3>
         </div>
       </div>
-      <form class="container align-content-center col-5" action="">
-        <input type="text" class="form-control mb-3 col-md-6" placeholder="name" >
-        <input type="email" class="form-control mb-3 col-md-6" placeholder="email" >
-        <input type="text" class="form-control mb-3 col-md-6"  placeholder="project" >
-        <textarea name="" id="" cols="30" rows="10" class="form-control mb-3 col-md-6" placeholder="message"></textarea>
-        <button type="submit" class="btn btn-primary mb-3 col-md-6"> send <i class="fas fa-paper-plane"></i> </button>
-      </form>
+      <div class="container align-content-center col-5" >
+        <input type="text" v-model="name" class="form-control mb-3 col-md-6" placeholder="name" >
+        <input type="email" v-model="email" class="form-control mb-3 col-md-6" placeholder="email" >
+        <input type="text" v-model="raison" class="form-control mb-3 col-md-6"  placeholder="Object" >
+        <textarea name="" v-model="message" id="" cols="30" rows="10" class="form-control mb-3 col-md-6" placeholder="message"></textarea>
+        <button type="submit" v-on:click="sendEmail" class="btn btn-primary mb-3 col-md-6"> send <i class="fas fa-paper-plane"></i> </button>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
 export default {
-  name: "ContactSection"
+  name: "ContactSection",
+  data() {
+    return {
+      name: "",
+      email: "",
+      raison: "",
+      message: ""
+    };
+  },
+  methods: {
+    sendEmail() {
+      try {
+         emailjs.send('service_ce3bbxt', 'template_niz435g',{
+           from_name: this.name,
+           raison: this.raison,
+           message: this.message,
+           reply_to: this.email,
+         }, '8qRK8jwWQRQlZXLTC')
+      } catch(error) {
+        console.log(error)
+      }
+      // Reset form field
+      this.name = ''
+      this.email = ''
+      this.raison = ''
+      this.message = ''
+    },
+  }
 }
 </script>
 

@@ -5,7 +5,7 @@
     <h2 class="subtitle">Software engineer</h2>
   </div>
   <div class="home" >
-    <p class="text-xl-center">I am a software engineer, passionate about Dot Net and JavaScript based web technologies with a great ability to learn and adapt, and I am very interested in micro-services architectures and agile methodologies.
+    <p class="text-center head-text">I am a software engineer, passionate about Dot Net and JavaScript based web technologies with a great ability to learn and adapt, and I am very interested in micro-services architectures and agile methodologies.
     </p>
     <a href="#about"><button class="btn btn-secondary">About Me </button></a>
   </div>
@@ -62,5 +62,11 @@ a {
 .portfolio-img{
   width: 20rem;
   height: 20rem;
+}
+.head-text {
+  width: 35%;
+  margin: auto;
+  padding-bottom: 2rem;
+
 }
 </style>

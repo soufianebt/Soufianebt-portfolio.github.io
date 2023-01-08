@@ -39,8 +39,8 @@ export default {
           images: [
             require("@/assets/Images/MyCoiffeur/My coiffeur.png"),
             ],
-          link: 'https://github.com/soufianebt/Dwerty-Location',
-          description: 'My coiffeur'
+          link: 'https://github.com/soufianebt/MyCoiffeur',
+          description: 'My Coiffeur'
           },
         {
           id: 3,
@@ -53,7 +53,7 @@ export default {
           },
         {
           id: 4,
-          name: 'dirty Location mobile',
+          name: 'dwirty Location mobile',
           images: [
             require("@/assets/Images/Dwirty/LOGO1.png"),
             ],
@@ -66,7 +66,7 @@ export default {
           images: [
              require("@/assets/Images/litifli/logo.png"),
         ],
-          link: 'https://github.com/soufianebt/Liteflit',
+          link: 'https://github.com/soufianebt/Litefli',
           description: 'Litefli is a platform dedicated to medical centers and Moroccan citizens to manage vaccination appointments for babies.'
           },
         {
