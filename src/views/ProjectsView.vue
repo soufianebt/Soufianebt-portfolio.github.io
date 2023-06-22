@@ -59,9 +59,9 @@ export default {
           imageUrl: 'images/Projects/ContactApp.png',
         },
         {
-          name: 'Syndic Management',
-          description: 'Syndic app',
-          url: 'https://github.com/soufianebt/contactApp',
+          name: 'Gestion syndic',
+          description: 'Gestion syndic',
+          url: 'https://github.com/soufianebt/Gestionsyndic',
           imageUrl: 'images/Projects/ContactApp.png',
         }
       ],
